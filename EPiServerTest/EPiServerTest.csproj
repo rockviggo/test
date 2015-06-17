@@ -146,6 +146,9 @@
     <Reference Include="EPiServer.Implementation">
       <HintPath>..\packages\EPiServer.CMS.Core.8.8.0\lib\net45\EPiServer.Implementation.dll</HintPath>
     </Reference>
+    <Reference Include="EPiServer.Labs.LanguageManager">
+      <HintPath>..\packages\EPiServer.Labs.LanguageManager.1.4.0.8000\lib\EPiServer.Labs.LanguageManager.dll</HintPath>
+    </Reference>
     <Reference Include="EPiServer.Licensing">
       <HintPath>..\packages\EPiServer.Framework.8.8.0\lib\net45\EPiServer.Licensing.dll</HintPath>
     </Reference>
@@ -534,6 +537,10 @@
     <Content Include="modules\_protected\EPiServer.Social\module.config" />
     <Content Include="modules\_protected\EPiServer.Social\EPiServerSocial.config" />
     <Content Include="modules\_protected\EPiServer.Social\EPiServer.Social.zip" />
+    <Content Include="modules\_protected\EPiServer.Labs.LanguageManager\web.config" />
+    <Content Include="modules\_protected\EPiServer.Labs.LanguageManager\module.config" />
+    <Content Include="modules\_protected\EPiServer.Labs.LanguageManager\EPiServer.LanguageManager.config" />
+    <Content Include="modules\_protected\EPiServer.Labs.LanguageManager\EPiServer.Labs.LanguageManager.zip" />
     <None Include="Properties\PublishProfiles\EPiServerTEST.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
