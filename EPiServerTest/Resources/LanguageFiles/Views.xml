@@ -42,5 +42,47 @@
     </form>
 
   </language>
+
+	<language name="Norsk" id="no">
+
+		<contact>
+			<email>E-post</email>
+			<phone>Telefon</phone>
+			<noneselected>Ingen kontakt valgt</noneselected>
+		</contact>
+
+		<footer>
+			<company>Om oss</company>
+			<customerzone>For kunder</customerzone>
+			<login>Logg inn</login>
+			<logout>Logg ut</logout>
+			<news>Aktuelt</news>
+			<products>Tjenester</products>
+		</footer>
+
+		<mainnavigation>
+			<search>Søk</search>
+		</mainnavigation>
+
+		<newspagetemplate>
+			<latestnews>Aktuelt</latestnews>
+			<listrootempty>Listen vil være tom når ingen kilde er valgt</listrootempty>
+		</newspagetemplate>
+
+		<searchpagetemplate>
+			<zero>Ingen</zero>
+			<result>Søkeresultat</result>
+			<searchbutton>Søk</searchbutton>
+			<searchfor>Ditt søk etter</searchfor>
+			<resultedin>gav</resultedin>
+			<hits>treff</hits>
+			<disabled>EPiServer Search is not configured or is not active for this website.</disabled>
+		</searchpagetemplate>
+
+		<form>
+			<postedmessage>Takk for din melding</postedmessage>
+		</form>
+		
+	</language>
   
 </languages>
